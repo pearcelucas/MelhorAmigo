@@ -6,7 +6,7 @@ export const Home = () => {
   return (
 
     <SectionHome>
-      <SubTitulo>Bem-vindo ao Petshop ao Melhor Amigo!!!</SubTitulo>
+      <SubTitulo>Bem-vindo ao Melhor Amigo!!!</SubTitulo>
       <Slide />
       <Textos>
         <TextoHome>No Petshop "Melhor Amigo", nós entendemos que seu animal de estimação é

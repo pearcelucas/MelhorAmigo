@@ -16,6 +16,7 @@ import { ImagemSliderHome } from "./styled";
 
 
 
+
 export const Slide = () => {
   return (
     
@@ -23,11 +24,19 @@ export const Slide = () => {
     modules={[Navigation, Pagination, Autoplay]}
     spaceBetween={0}
     breakpoints={{
-      300: {slidesPerView: 1},
-      768: {slidesPerView: 3}
-    }}
-    autoplay={{ delay: 1500 }}
+      300: {
+        slidesPerView: 1 ,     
+        navigation: {
+          enabled: false
+        }
+      },
+      768: {slidesPerView: 3,
+        navigation: {
+          enabled: true
+        }
+    }}}
     navigation
+    autoplay={{ delay: 1500 }}
     pagination={{ clickable: true }}
     scrollbar={{ draggable: true }}
   >
