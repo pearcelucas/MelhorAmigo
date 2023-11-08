@@ -6,7 +6,7 @@ import { Produtos } from './pages/produtos';
 import { Contatos } from './pages/contatos';
 import { Erro } from './pages/page404';
 import { Header } from './components/header';
-import { FullBody, GlobalStyles } from './components/styled';
+import { GlobalStyles } from './components/styled';
 import { NavRodape } from './components/NavRodape';
 
 function App() {

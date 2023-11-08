@@ -1,7 +1,8 @@
 import {styled} from "styled-components"
 import { createGlobalStyle } from "styled-components"
 import {Link} from "react-router-dom"
-
+import BackgroundIMG from "../imagens/360_F_298201821_e90YxH0f6FBwOvcKhynlwF8sNYxlCMsg.jpg"
+import BackgroundIMG2 from "../imagens/../imagens/backlossos.webp"
 export const GlobalStyles = createGlobalStyle`
     html, body {
 	margin: 0;
@@ -15,10 +16,11 @@ export const GlobalStyles = createGlobalStyle`
 `
 
 export const HeaderDiv = styled.div`
-    background-color: green;
+    
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-image: url(${BackgroundIMG}); 
     
 
 `
@@ -35,7 +37,6 @@ export const Nome = styled.h1`
 `
 export const Navbar = styled.ul`
     display: flex;
- 
     list-style: none;
     padding: 0;
     margin-top: 0;
@@ -51,19 +52,13 @@ export const NavLi = styled.li`
     justify-content: center;
     align-self: center;
     text-align: center;
-    
-   
-    
    
 `
-
 
 export const NavLink = styled(Link)`
     text-decoration: none;
     color: white;
     width: 100%;
-   
-    
 
     &:hover {
         width: 100%;
@@ -72,9 +67,14 @@ export const NavLink = styled(Link)`
     }
 `
 
+
+
+
+
+
 export const Rodape = styled.footer`
     width: 100%;
-    background-color: green;
+    background-image: url(${BackgroundIMG});
     display: flex;
     color: white;
     padding-bottom: 1%;
@@ -221,4 +221,39 @@ margin-top: 10%;
         font-size: 2vw;
         
     }
+`
+export const SectionHome = styled.div`
+    
+    
+    margin-top: 0;
+    background-color: #90eee0;
+   
+    
+   
+`
+
+export const SubTitulo = styled.h2`
+    padding: 2%;
+    margin: 0;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    
+`
+
+export const ImagemSliderHome = styled.img`
+    width: 100%;
+  
+    
+`
+export const Textos = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
+export const TextoHome = styled.p`
+    /* background-color: white; */
+    width: 80%;
+    color: black;
+    
+    
 `
