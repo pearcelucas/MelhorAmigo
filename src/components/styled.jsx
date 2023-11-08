@@ -2,7 +2,8 @@ import {styled} from "styled-components"
 import { createGlobalStyle } from "styled-components"
 import {Link} from "react-router-dom"
 import BackgroundIMG from "../imagens/360_F_298201821_e90YxH0f6FBwOvcKhynlwF8sNYxlCMsg.jpg"
-import BackgroundIMG2 from "../imagens/../imagens/backlossos.webp"
+
+
 export const GlobalStyles = createGlobalStyle`
     html, body {
 	margin: 0;
@@ -62,7 +63,7 @@ export const NavLink = styled(Link)`
 
     &:hover {
         width: 100%;
-        color: green;
+        color: rgba(94,193,173,255);
         background-color: white;
     }
 `
@@ -275,6 +276,47 @@ export const TextoHome = styled.p`
     /* background-color: white; */
     width: 80%;
     color: black;
+
+`
+
+export const Cards = styled.div`
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 3%;
+    width: 80%;
     
-    
+`
+
+export const Card = styled.div`
+    border: solid 2px black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    padding: 2%;
+`
+
+export const ImgCard = styled.img`
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+`
+
+export const DescricaoCard = styled.p`
+    color: rgba(94,193,173,255);
+    font-size: 4vw;
+    text-align: center;
+
+
+`
+
+export const PrecoCard = styled.p`
+    color: purple;
+    font-weight: bolder;
+    font-size: 5vw;
 `
