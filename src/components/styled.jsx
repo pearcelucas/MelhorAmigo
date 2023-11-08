@@ -90,6 +90,15 @@ export const NomeRodape = styled.h1`
     text-align: center;
     font-size: 7vw;
     margin-bottom: 1%;
+
+
+    @media screen and (min-width: 768px){
+        font-size: 5vw;
+
+        
+    }
+
+
 `
 
 export const Sobre = styled.div`
@@ -110,12 +119,6 @@ export const Divisoria = styled.hr`
     margin-top: 3%;
     margin-bottom: 3%;
 `
-export const ImgRodape = styled.img`
-     @media screen and (max-width: 768px){
-        width: 2vw;
-        
-    }
-`
 
 export const MenuRapido = styled.div`
 
@@ -125,12 +128,11 @@ padding-right: 2.5%;
 padding-top: 2.5%;
 
 
-
 `
 
 export const TituloRodape = styled.h2`
     color: white;
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin-top: 10%;
     margin-bottom: 10%;
     font-weight: bolder;
@@ -142,32 +144,33 @@ export const TituloRodape = styled.h2`
         
     }
 `
+export const Lista2 = styled.ul`
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: white;
+    height: 50%;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 0;
+
+    
+`
 
 export const ItemLista2 = styled(Link)`
     text-decoration: none;
     color: white;
-    font-size: 1vw;
+    font-size: 1.5vw;
     &:hover{
         color: #004bae;
     }
     
     @media screen and (max-width: 768px){
-        font-size: 2vw;
+        font-size: 2.5vw;
         
     }
 `
 
-export const Lista2 = styled.ul`
-    display: flex;
-    flex-direction: column;
-    gap: 1%;
-    list-style: none;
-    color: white;
-    height: 70%;
-    justify-content: space-evenly;
-
-    
-`
 
 export const ContatosEndereco = styled.div`
 
@@ -179,7 +182,10 @@ padding-top: 2.5%;
 
 export const Endereco = styled.div`
 display: flex;
-margin-top: 10%;
+margin-top: 0;
+margin-bottom: 0;
+padding: 0;
+font-size: 1.5vw;
 
 
 @media screen and (max-width: 768px){
@@ -190,6 +196,11 @@ margin-top: 10%;
 `
 
 export const EnderecoTexto = styled.p`
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5vw;
+  
+
     @media screen and (max-width: 768px){
         font-size: 2vw;
         
@@ -197,16 +208,21 @@ export const EnderecoTexto = styled.p`
 `
 
 export const LinkRodape = styled(Link)`
+    font-size: 1.2vw;
+
+
      @media screen and (max-width: 768px){
         font-size: 2vw;
+        
         
     }
 `
 
 export const Telefone = styled.div`
-display: flex;
 margin-top: 10%;
+display: flex;
 align-items: center;
+font-size: 1.5vw;
 @media screen and (max-width: 768px){
         font-size: 2vw;
         
@@ -216,7 +232,7 @@ align-items: center;
 
 export const Email = styled.div`
 display: flex;
-margin-top: 10%;
+padding-top: 10%;
 @media screen and (max-width: 768px){
         font-size: 2vw;
         
@@ -228,8 +244,13 @@ export const SectionHome = styled.div`
     margin-top: 0;
     background-color: #90eee0;
    
+      
+`
+
+export const ImgRodape = styled.img`
+    width: 10%;
+    padding-right: 5%;
     
-   
 `
 
 export const SubTitulo = styled.h2`

@@ -1,4 +1,7 @@
 import { ContatosEndereco, Divisoria, Email, Endereco, EnderecoTexto, ImgRodape, ItemLista2, LinkRodape, Lista2, MenuRapido, Nome, NomeRodape, Rodape, Sobre, Telefone, TituloRodape } from "./styled"
+import ImgEndereco from "../imagens/location-pin.png"
+import ImgWhats from "../imagens/whatsapp-icon.png"
+import ImgEmail from "../imagens/mail.png"
 
 export const NavRodape = () => {
     return (
@@ -6,7 +9,7 @@ export const NavRodape = () => {
         <Rodape>
             <Sobre>
             <NomeRodape>Melhor Amigo</NomeRodape>
-                <p>No Petshop "Melhor Amigo", nós entendemos que seu animal de estimação é mais do que apenas um bichinho, é um membro especial da sua família. Com isso em mente, estamos comprometidos em fornecer cuidados excepcionais e serviços de alta qualidade para garantir que seu melhor amigo tenha uma vida feliz e saudável.</p>
+                <p>No Petshop "Melhor Amigo", nós entendemos que seu animal de estimação é mais do que apenas um pet, é um membro especial da sua família. </p>
                 <Divisoria />
                 <p>Razão Social: PetShop Melhor Amigo</p>
                 <p>CNPJ: 123.456.0001/01</p>
@@ -36,19 +39,19 @@ export const NavRodape = () => {
                 <TituloRodape>Contatos e endereço</TituloRodape>
                 <Divisoria />
                 <Endereco>
-                    {/* <ImgRodape src={endereco} /> */}
-                    <p>Rua Lorem Ipsum, 1234</p>
+                    <ImgRodape src={ImgEndereco} />
+                    <EnderecoTexto>Rua Lorem Ipsum, 1234</EnderecoTexto>
                 </Endereco>
                 <EnderecoTexto>Fortaleza/CE</EnderecoTexto>
                 <EnderecoTexto>Cep: 60123-456</EnderecoTexto>
                 <LinkRodape to="https://maps.app.goo.gl/xLcgvBs6z8nvh8y78">Ver no mapa</LinkRodape>
                 <Telefone>
-                    
-                    <p>(85) 9999-9999</p>
+                    <ImgRodape src={ImgWhats} />
+                    <EnderecoTexto>(85) 9999-9999</EnderecoTexto>
                 </Telefone>
                 <LinkRodape to="https://wa.me/5585999999999">abrir whatsapp</LinkRodape>
                 <Email>
-                    
+                    <ImgRodape src={ImgEmail} />
                     <EnderecoTexto>melhoramigo@email.com.br</EnderecoTexto>
                 </Email>
             </ContatosEndereco>
