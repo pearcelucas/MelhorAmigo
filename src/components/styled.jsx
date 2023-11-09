@@ -258,8 +258,13 @@ export const ImgRodape = styled.img`
 export const SubTitulo = styled.h2`
     padding: 2%;
     margin: 0;
-    color: white;
-    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    color: #24c8af;
+    font-family: lobster;
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+
     
 `
 
@@ -286,6 +291,7 @@ export const Cards = styled.div`
     width: 90%;
     flex-wrap: wrap;
     gap: 5%;
+    margin-top: 5%;
         
     `
     
@@ -363,9 +369,26 @@ export const SectionProdutos = styled.div`
     align-items: center;
     width: 100%;
     
-
-    
-   
-   
+ 
       
+`
+
+export const SaibaMais = styled(Link)`
+    
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    padding: 2%;
+    font-weight: bolder;
+    font-size: 7vw;
+    margin-top: 5%;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px black;
+    
+
+    @media screen and (min-width: 768px){
+    font-size: 2vw;
+    
+}
+
 `
