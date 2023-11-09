@@ -1,4 +1,4 @@
-import { Card, Cards, DescricaoCard, ImgCard, PrecoCard } from "../components/styled"
+import { Card, Cards, DescricaoCard, ImgCard, PrecoCard, SectionProdutos } from "../components/styled"
 import ImgProduto1 from "../imagens/Produtos/(20)_Ração_Seca_Nutrilus_Pro__Frango___Carne_para_Cães_Adultos_2.jpg"
 import ImgProduto2 from "../imagens/Produtos/131-98d8fbf6ac9fc0366516948075128419-1024-1024.webp"
 import ImgProduto3 from "../imagens/Produtos/2617011_FRENTE.webp"
@@ -15,7 +15,7 @@ import ImgProduto12 from "../imagens/Produtos/granulado-10kg-canva-afeb63adcadd5
 
 export const Produtos = () =>{
     return (
-        <>
+        <SectionProdutos>
         <h1>Produtos</h1>
         <Cards>
             <Card>
@@ -79,6 +79,6 @@ export const Produtos = () =>{
                 <PrecoCard>R$ 48,99</PrecoCard>
             </Card>
         </Cards>
-        </>
+        </SectionProdutos>
     )
 } 

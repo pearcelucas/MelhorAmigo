@@ -80,6 +80,7 @@ export const Rodape = styled.footer`
     color: white;
     padding-bottom: 1%;
     margin-bottom: 0;
+   
     
 `
 
@@ -276,21 +277,23 @@ export const TextoHome = styled.p`
     /* background-color: white; */
     width: 80%;
     color: black;
-
-`
+    
+    `
 
 export const Cards = styled.div`
-    border: solid 1px black;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 3%;
-    width: 80%;
+   
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 5%;
+        
+    `
     
-`
+
 
 export const Card = styled.div`
+    flex: 1 1 calc(60% - 5%);
     border: solid 2px black;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -298,25 +301,71 @@ export const Card = styled.div`
     border-radius: 25px;
     box-shadow: 5px 5px 5px black;
     padding: 2%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    background-color: white;
+
+    @media screen and (min-width: 768px){
+        flex: 1 1 calc(25% - 5%);
+        
+    }
+    
+    
 `
 
 export const ImgCard = styled.img`
-    width: 50%;
+    width: 80%;
     justify-content: center;
     align-items: center;
     align-self: center;
+    
 `
 
 export const DescricaoCard = styled.p`
     color: rgba(94,193,173,255);
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    @media screen and (min-width: 768px){
+        font-size: 1.5vw;
+        
+    }
+
 
 
 `
 
 export const PrecoCard = styled.p`
-    color: purple;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    padding: 2%;
     font-weight: bolder;
-    font-size: 5vw;
+    font-size: 7vw;
+    margin-top: 1%;
+
+    @media screen and (min-width: 768px){
+        font-size: 2vw;
+        
+    }
+    
+`
+
+export const SectionProdutos = styled.div`
+    
+    
+    margin-top: 0;
+    background-color: #90eee0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+
+    
+   
+   
+      
 `
