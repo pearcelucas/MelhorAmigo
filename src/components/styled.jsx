@@ -244,7 +244,7 @@ export const SectionHome = styled.div`
     
     
     margin-top: 0;
-    background-color: #90eee0;
+    background-color: #24c8af;
    
       
 `
@@ -264,7 +264,7 @@ export const SubTitulo = styled.h2`
     width: 100%;
     text-align: center;
     font-size: 5vw;
-
+    
     
 `
 
@@ -281,7 +281,7 @@ export const Textos = styled.div`
 export const TextoHome = styled.p`
     /* background-color: white; */
     width: 80%;
-    color: black;
+    color: white;
     
     `
 
@@ -310,6 +310,7 @@ export const Card = styled.div`
     margin-bottom: 5%;
     box-sizing: border-box;
     background-color: white;
+    overflow: hidden;
 
     @media screen and (min-width: 768px){
         flex: 1 1 calc(25% - 5%);
@@ -391,4 +392,43 @@ export const SaibaMais = styled(Link)`
     
 }
 
+`
+
+export const Whatsapp = styled.img`
+    width: 100%;
+`
+
+export const BotaoWhatsapp = styled(Link)`
+width: 5%;
+position: fixed;
+z-index: 3;
+bottom: 5%;
+right: 1%;
+
+@media screen and (max-width: 768px){
+        width: 10%;
+       
+    }
+
+`
+
+export const SectionFotos = styled.div`
+    margin-top: 0;
+    background-color: #90eee0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+`
+export const ImgCardFoto = styled.img`
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+
+    &:hover{
+        transform: scale(w)
+    }
 `

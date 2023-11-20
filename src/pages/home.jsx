@@ -1,3 +1,4 @@
+import { Whats } from "../components/BotaoWhatsapp"
 import { Slide } from "../components/slider"
 import { SectionHome, SubTitulo, TextoHome, Textos } from "../components/styled"
 import imagemPrincipal from "../imagens/child-mother-pet-shop-with-their-dog.jpg"
@@ -41,6 +42,8 @@ export const Home = () => {
           estamos aqui para fornecer exatamente isso. Confie no Petshop "Melhor
           Amigo" para cuidar do seu melhor amigo como se fosse nosso próprio.</TextoHome>
       </Textos>
+      <Whats/>
     </SectionHome>
+    
   )
 } 

@@ -27,19 +27,19 @@ export const Produtos = () =>{
         <SubTitulo>Limpeza</SubTitulo>
         <Cards>
             <Card>
-                <h2>Banhos Funcionais</h2>
+                <SubTitulo>Banhos Funcionais</SubTitulo>
                 <ImgCard src={ImgBanho}/>
                 <DescricaoCard>Primeiro, uma boa higienização com Shampoo de Limpeza Profunda, em seguida limpeza da face com Shampoo Suave, e condicionamento. Para finalizar, utilizamos a linha de fragrâncias, que deixam os pets com a pelagem suavemente perfumada, sem agredir seu delicado olfato.</DescricaoCard>
                 <SaibaMais to="https://wa.me/5585999999999">Entre em contato</SaibaMais>
             </Card>
             <Card>
-                <h2>Tratamentos Simples</h2>
+                <SubTitulo>Tratamentos Simples</SubTitulo>
                 <ImgCard src={ImgTratamento}/>
                 <DescricaoCard>É composto por dois tratamentos especiais e completos, para remoção de odores e nutrição da pelagem.</DescricaoCard>
                 <SaibaMais to="https://wa.me/5585999999999">Entre em contato</SaibaMais>
             </Card>
-            <Card>]
-                <h2>Hidratação</h2>
+            <Card>
+                <SubTitulo>Hidratação</SubTitulo>
                 <ImgCard src={ImgHidratacao}/>
                 <DescricaoCard>A hidratação mantém a pelagem saudável, pois não apenas repõe aminoácidos e queratina, mas também sela a cutícula do pelo, evitando que embarace e quebre.</DescricaoCard>
                 <SaibaMais to="https://wa.me/5585999999999">Entre em contato</SaibaMais>
@@ -48,19 +48,19 @@ export const Produtos = () =>{
         <SubTitulo>Tosa</SubTitulo>
         <Cards>
             <Card>
-                <h2>TOSA HIGIÊNICA</h2>
+                <SubTitulo>Tosa higiênica</SubTitulo>
                 <ImgCard src={ImgTosaHigienica}/>
                 <DescricaoCard>Corte dos pelos do bumbum, coxas, barriga, limpeza do pelo entre os coxins (almofadinhas das patas), limpeza dos pelos da face.</DescricaoCard>
                 <SaibaMais to="https://wa.me/5585999999999">Entre em contato</SaibaMais>
             </Card>
             <Card>
-            <h2>TOSA</h2>
+            <SubTitulo>Tosa</SubTitulo>
                 <ImgCard src={ImgTosa}/>
                 <DescricaoCard>Tosas especializadas, que realçam as formas de cães e gatos, que vão desde tirar as pontas até abaixar bem o pelo, de acordo com a necessidade.</DescricaoCard>
                 <SaibaMais to="https://wa.me/5585999999999">Entre em contato</SaibaMais>
             </Card>
             <Card>
-            <h2>TRIMMING</h2>
+            <SubTitulo>Trimming</SubTitulo>
                 <ImgCard src={ImgTrimming}/>
                 <DescricaoCard>Tosa especializada, que realça as formas e remove o subpelo.</DescricaoCard>
                 <SaibaMais to="https://wa.me/5585999999999">Entre em contato</SaibaMais>
@@ -102,7 +102,7 @@ export const Produtos = () =>{
             </Card>
             <Card>
                 <ImgCard src={ImgProduto7}/>
-                <DescricaoCard>RAção Seca Magnus Todo Dia Carne para Cães Adultos - 20kg</DescricaoCard>
+                <DescricaoCard>Ração Seca Magnus Todo Dia Carne para Cães Adultos - 20kg</DescricaoCard>
                 <SaibaMais>R$ 124,00</SaibaMais>
             </Card>
             <Card>
